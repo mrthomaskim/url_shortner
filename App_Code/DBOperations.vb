@@ -34,11 +34,7 @@ Public Class DBOperations
 #Region " Initializations "
 
   Public Sub New(Optional ByVal IsDev As Boolean = False)
-        'ConnectString = "Data Source=JNT101;Initial Catalog=CWSI;User ID=cwsiUser;Password=QaZ13579;pooling=false;"
-        'ConnectString = "Server=.\SQLExpress;AttachDbFilename=C:\Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\DATA\URLShortner.mdf;Database=DB_25972_cwsidb; Persist Security Info=True;User ID=DB_25972_cwsidb_user;Password=P@ssword1"
-        ' ConnectString = "Server=.\SQLExpress;AttachDbFilename=C:\Program Files\Microsoft SQL Server\MSSQL10_50.SQLEXPRESS\MSSQL\DATA\URLShortner.mdf;Database=URLShortner;Persist Security Info=True;User ID=DB_25972_cwsidb_user;Password=P@ssword1"
-        ' ConnectString = "Server=.\SQLExpress;AttachDbFilename=|DataDirectory|URLShortner.mdf; Database=DB_25972_cwsidb;Persist Security Info=True;User ID=DB_25972_cwsidb_user;Password=P@ssword1;"
-        ConnectString = "Data Source=.\SQLExpress;Initial Catalog=url_shortner_db;Persist Security Info=True;User Id=svc_url_dude;Password=Terminator123;"
+        ConnectString = "Data Source=.\SQLExpress;Initial Catalog=<some_database>;Persist Security Info=True;User Id=<user_id>;Password=<password>;"
   End Sub
 
 #End Region
