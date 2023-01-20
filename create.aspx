@@ -1,4 +1,6 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Create.aspx.vb" Inherits="Create" %>
+check out golinks.com for the real deal.
+
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Create.aspx.vb" Inherits="Create" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
